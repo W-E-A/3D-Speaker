@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speakerlab"
+version = "0.0.1"
+description = "3D-Speaker is an open-source toolkit for single- and multi-modal speaker verification, speaker recognition, and speaker diarization."
+dependencies = [
+    "torch>=1.10.1",
+    "torchaudio>=0.10.1",
+    "tqdm>=4.42.0",
+    "scipy>=1.7.0",
+    "numpy>=1.20.0,<2.0",
+    "scikit-learn>=1.0.2",
+    "soundfile",
+    "kaldiio",
+    "pyyaml",
+    "matplotlib",
+    "pandas",
+    "openpyxl",
+]
+
+[tool.setuptools.packages.find]
+where = ["speakerlab"]
