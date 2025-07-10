@@ -44,3 +44,8 @@ Makefile
 **/onnx_runtime/
 **/exp/
 **/__pycache__/
+
+# build
+dist/
+build/
+*.egg-info/

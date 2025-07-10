@@ -1,7 +1,10 @@
+## Introduction
+
+**This package is derived from https://github.com/modelscope/3D-Speaker, the core of the project folder `speakerlab` is not a standard package, this project will speakerlab separately packaged and distributed.**
 
 <p align="center">
     <br>
-    <img src="docs/images/3D-Speaker-logo.png" width="400"/>
+    <img src="https://raw.githubusercontent.com/modelscope/3D-Speaker/refs/heads/main/docs/images/3D-Speaker-logo.png" width="400"/>
     <br>
 <p>
     
