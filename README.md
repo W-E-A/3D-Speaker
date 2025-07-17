@@ -1,6 +1,6 @@
 ## Introduction
 
-**This package is derived from https://github.com/modelscope/3D-Speaker, the core of the project folder `speakerlab` is not a standard package, this project will speakerlab separately packaged and distributed.**
+**This software package is derived from https://github.com/modelscope/3D-Speaker. The core part of the project folder "speakerlab" is not a standard software package. This project will separately package and distribute "speakerlab".**
 
 <p align="center">
     <br>

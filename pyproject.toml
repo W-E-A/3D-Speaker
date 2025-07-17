@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "speakerlab"
-version = "0.0.3"
+version = "0.0.6"
 authors = [
     { name = "WEA", email = "8200880126@stu.hit.edu.cn" },
 ]
@@ -19,18 +19,28 @@ classifiers = [
 dependencies = [
     "torch>=1.10.1",
     "torchaudio>=0.10.1",
+    "torchvision",
     "tqdm>=4.42.0",
     "scipy>=1.7.0",
     "numpy>=1.20.0,<2.0",
     "scikit-learn>=1.0.2",
-    "soundfile",
-    "kaldiio",
-    "pyyaml",
+    "datasets>=3.0.0,<=3.6.0",
+    "funasr>=1.2.6",
+    "modelscope>=1.28.0",
+    "transformers",
     "matplotlib",
     "pandas",
     "openpyxl",
+    "textgrid",
+    "python_speech_features",
+    "hdbscan",
+    "fastcluster",
 ]
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["speakerlab*"]
+
+[project.urls]
+Homepage = "https://github.com/W-E-A/3D-Speaker"
+Repository = "https://github.com/W-E-A/3D-Speaker"
